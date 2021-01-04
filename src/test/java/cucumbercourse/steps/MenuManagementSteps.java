@@ -1,4 +1,4 @@
-package cucumbercourse.stepdefinitions;
+package cucumbercourse.steps;
 
 import cucumbercourse.RestaurantMenu;
 import cucumbercourse.RestaurantMenuItem;
