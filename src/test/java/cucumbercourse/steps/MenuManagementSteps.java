@@ -27,5 +27,6 @@ public class MenuManagementSteps {
     @Then("Menu item with name {string} should be added")
     public void menu_item_with_name_should_be_added(String name) {
         assertThat(restaurantMenu.getMenuItems()).contains(resturantMenuItem);
+        assertThat(resturantMenuItem.getName()).isEqualTo(name);
     }
 }
