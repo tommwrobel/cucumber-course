@@ -1,5 +1,8 @@
 Feature: Menu Management
 
+  Background: Prepare menu
+    Given I have a menu object
+
   @SmokeTest
   Scenario: Add a menu item
     Given I have a menu item with name "Cucumber Sandwich" and price 20

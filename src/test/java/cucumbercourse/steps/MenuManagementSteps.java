@@ -13,6 +13,11 @@ public class MenuManagementSteps {
     RestaurantMenuItem resturantMenuItem;
     RestaurantMenu restaurantMenu;
 
+    @Given("I have a menu object")
+    public void iHaveAMenuObject() {
+        restaurantMenu = new RestaurantMenu();
+    }
+
     @Given("I have a menu item with name {string} and price {int}")
     public void i_have_a_menu_item_with_name_and_price(String name, Integer price) {
         resturantMenuItem = new RestaurantMenuItem(name, "", price);
@@ -20,7 +25,6 @@ public class MenuManagementSteps {
 
     @When("I add that menu item")
     public void i_add_that_menu_item() {
-        restaurantMenu = new RestaurantMenu();
         restaurantMenu.addItem(resturantMenuItem);
     }
 
