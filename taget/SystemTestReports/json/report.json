@@ -1,0 +1,396 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Prepare menu",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have a menu object",
+            "match": {
+              "location": "cucumbercourse.steps.MenuManagementSteps.iHaveAMenuObject()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T21:59:51.292Z",
+        "line": 7,
+        "name": "Add a menu item",
+        "description": "",
+        "id": "menu-management;add-a-menu-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have a menu item with name \"Cucumber Sandwich\" and price 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber Sandwich\"",
+                  "offset": 29
+                },
+                {
+                  "val": "20",
+                  "offset": 59
+                }
+              ],
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_have_a_menu_item_with_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I add that menu item",
+            "match": {
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_add_that_menu_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60835600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Menu item with name \"Cucumber Sandwich\" should be added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber Sandwich\"",
+                  "offset": 20
+                }
+              ],
+              "location": "cucumbercourse.steps.MenuManagementSteps.menu_item_with_name_should_be_added(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Prepare menu",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have a menu object",
+            "match": {
+              "location": "cucumbercourse.steps.MenuManagementSteps.iHaveAMenuObject()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T21:59:51.439Z",
+        "line": 13,
+        "name": "Add second menu item",
+        "description": "",
+        "id": "menu-management;add-second-menu-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I have a menu item with name \"Cucumber Salad\" and price 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber Salad\"",
+                  "offset": 29
+                },
+                {
+                  "val": "15",
+                  "offset": 56
+                }
+              ],
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_have_a_menu_item_with_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I add that menu item",
+            "match": {
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_add_that_menu_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Menu item with name \"Cucumber Salad\" should be added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber Salad\"",
+                  "offset": 20
+                }
+              ],
+              "location": "cucumbercourse.steps.MenuManagementSteps.menu_item_with_name_should_be_added(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegularTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Prepare menu",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have a menu object",
+            "match": {
+              "location": "cucumbercourse.steps.MenuManagementSteps.iHaveAMenuObject()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T21:59:51.450Z",
+        "line": 19,
+        "name": "Add third menu item",
+        "description": "",
+        "id": "menu-management;add-third-menu-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I have a menu item with name \"Chicken Soup\" and price 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chicken Soup\"",
+                  "offset": 29
+                },
+                {
+                  "val": "10",
+                  "offset": 54
+                }
+              ],
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_have_a_menu_item_with_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I add that menu item",
+            "match": {
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_add_that_menu_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Menu item with name \"Chicken Soup\" should be added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chicken Soup\"",
+                  "offset": 20
+                }
+              ],
+              "location": "cucumbercourse.steps.MenuManagementSteps.menu_item_with_name_should_be_added(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NightlyBuildTest"
+          },
+          {
+            "name": "@RegularTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Prepare menu",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have a menu object",
+            "match": {
+              "location": "cucumbercourse.steps.MenuManagementSteps.iHaveAMenuObject()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-13T21:59:51.459Z",
+        "line": 25,
+        "name": "Adding duplicate items",
+        "description": "",
+        "id": "menu-management;adding-duplicate-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I have a menu item with name \"Cocumber Salad\" and price 12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cocumber Salad\"",
+                  "offset": 29
+                },
+                {
+                  "val": "12",
+                  "offset": 56
+                }
+              ],
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_have_a_menu_item_with_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I add that menu item",
+            "match": {
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_add_that_menu_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5983200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I have a menu item with name \"Cocumber Salad\" and price 12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cocumber Salad\"",
+                  "offset": 29
+                },
+                {
+                  "val": "12",
+                  "offset": 56
+                }
+              ],
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_have_a_menu_item_with_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3988700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I add that menu item",
+            "match": {
+              "location": "cucumbercourse.steps.MenuManagementSteps.i_add_that_menu_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I get an error message \"Menu item named Cocumber Salad already exists!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Menu item named Cocumber Salad already exists!\"",
+                  "offset": 23
+                }
+              ],
+              "location": "cucumbercourse.steps.MenuManagementSteps.iGetAnErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegularTest"
+          }
+        ]
+      }
+    ],
+    "name": "Menu Management",
+    "description": "",
+    "id": "menu-management",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/cucumbercourse/features/MenuManagement.feature",
+    "tags": []
+  }
+]

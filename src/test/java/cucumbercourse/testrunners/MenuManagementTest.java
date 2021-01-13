@@ -8,6 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/cucumbercourse/features/MenuManagement.feature",
         glue = "cucumbercourse/steps",
-        plugin = {"pretty"})
+        plugin = {"pretty",
+                "html:taget/SystemTestReports/html/report.html",
+                "json:taget/SystemTestReports/json/report.json",
+                "junit:taget/SystemTestReports/junit/report.xml"})
 public class MenuManagementTest {
 }

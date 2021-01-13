@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.332">
+    <testcase classname="Menu Management" name="Add a menu item" time="0.136">
+        <system-out>
+            <![CDATA[Given I have a menu object..................................................passed
+Given I have a menu item with name "Cucumber Sandwich" and price 20.........passed
+When I add that menu item...................................................passed
+Then Menu item with name "Cucumber Sandwich" should be added................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Menu Management" name="Add second menu item" time="0.005">
+        <system-out>
+            <![CDATA[Given I have a menu object..................................................passed
+Given I have a menu item with name "Cucumber Salad" and price 15............passed
+When I add that menu item...................................................passed
+Then Menu item with name "Cucumber Salad" should be added...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Menu Management" name="Add third menu item" time="0.003">
+        <system-out>
+            <![CDATA[Given I have a menu object..................................................passed
+Given I have a menu item with name "Chicken Soup" and price 10..............passed
+When I add that menu item...................................................passed
+Then Menu item with name "Chicken Soup" should be added.....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Menu Management" name="Adding duplicate items" time="0.023">
+        <system-out>
+            <![CDATA[Given I have a menu object..................................................passed
+Given I have a menu item with name "Cocumber Salad" and price 12............passed
+And I add that menu item....................................................passed
+And I have a menu item with name "Cocumber Salad" and price 12..............passed
+When I add that menu item...................................................passed
+Then I get an error message "Menu item named Cocumber Salad already exists!".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
