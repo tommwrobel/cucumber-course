@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1995100,
+              "duration": 2992800,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-13T21:59:51.292Z",
+        "start_timestamp": "2021-01-13T22:09:14.025Z",
         "line": 7,
         "name": "Add a menu item",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 996900,
+              "duration": 997900,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 60835600,
+              "duration": 62831900,
               "status": "passed"
             },
             "line": 10,
@@ -99,6 +99,7 @@
         "steps": [
           {
             "result": {
+              "duration": 997600,
               "status": "passed"
             },
             "line": 4,
@@ -111,7 +112,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-13T21:59:51.439Z",
+        "start_timestamp": "2021-01-13T22:09:14.179Z",
         "line": 13,
         "name": "Add second menu item",
         "description": "",
@@ -142,7 +143,6 @@
           },
           {
             "result": {
-              "duration": 996900,
               "status": "passed"
             },
             "line": 15,
@@ -154,7 +154,6 @@
           },
           {
             "result": {
-              "duration": 997900,
               "status": "passed"
             },
             "line": 16,
@@ -198,7 +197,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-13T21:59:51.450Z",
+        "start_timestamp": "2021-01-13T22:09:14.189Z",
         "line": 19,
         "name": "Add third menu item",
         "description": "",
@@ -286,7 +285,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-13T21:59:51.459Z",
+        "start_timestamp": "2021-01-13T22:09:14.203Z",
         "line": 25,
         "name": "Adding duplicate items",
         "description": "",
@@ -296,7 +295,6 @@
         "steps": [
           {
             "result": {
-              "duration": 996400,
               "status": "passed"
             },
             "line": 26,
@@ -329,7 +327,7 @@
           },
           {
             "result": {
-              "duration": 5983200,
+              "duration": 5983900,
               "status": "passed"
             },
             "line": 28,
@@ -351,7 +349,7 @@
           },
           {
             "result": {
-              "duration": 3988700,
+              "duration": 8975900,
               "status": "passed"
             },
             "line": 29,

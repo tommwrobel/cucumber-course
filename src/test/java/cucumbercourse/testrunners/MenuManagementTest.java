@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
         features = "src/test/java/cucumbercourse/features/MenuManagement.feature",
         glue = "cucumbercourse/steps",
         plugin = {"pretty",
-                "html:taget/SystemTestReports/html/report.html",
-                "json:taget/SystemTestReports/json/report.json",
-                "junit:taget/SystemTestReports/junit/report.xml"})
+                "html:target/SystemTestReports/html/report.html",
+                "json:target/SystemTestReports/json/report.json",
+                "junit:target/SystemTestReports/junit/report.xml"})
 public class MenuManagementTest {
 }
