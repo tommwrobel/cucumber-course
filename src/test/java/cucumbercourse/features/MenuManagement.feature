@@ -20,3 +20,11 @@ Feature: Menu Management
     Given I have a menu item with name "Chicken Soup" and price 10
     When I add that menu item
     Then Menu item with name "Chicken Soup" should be added
+
+  @RegularTest
+  Scenario: Adding duplicate items
+    Given I have a menu item with name "Cocumber Salad" and price 12
+    And I add that menu item
+    And I have a menu item with name "Cocumber Salad" and price 12
+    When I add that menu item
+    Then I get an error message "Menu item named Cocumber Salad already exists!"

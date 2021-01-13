@@ -1,5 +1,6 @@
 package cucumbercourse;
 
+import java.security.InvalidParameterException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,8 +11,11 @@ public class RestaurantMenu {
         menuItems = new ArrayList<>();
     }
 
-    public void addItem(RestaurantMenuItem restaurantMenuItem) {
-        menuItems.add(restaurantMenuItem);
+    public boolean addItem(RestaurantMenuItem restaurantMenuItem) {
+        if(menuItemExists(restaurantMenuItem)) {
+            throw new IllegalArgumentException("Menu item named " + restaurantMenuItem.getName() + " already exists!");
+        }
+        return menuItems.add(restaurantMenuItem);
     }
 
     public List<RestaurantMenuItem> getMenuItems() {
@@ -20,5 +24,9 @@ public class RestaurantMenu {
 
     public void setMenuItems(List<RestaurantMenuItem> menuItems) {
         this.menuItems = menuItems;
+    }
+
+    private boolean menuItemExists(RestaurantMenuItem restaurantMenuItem) {
+        return menuItems.contains(restaurantMenuItem);
     }
 }
